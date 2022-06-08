@@ -19,6 +19,8 @@ Note #3: Designed on node version "14.17.5"
 # Deployment
 Steps:\
 1.) Make sure to install the postgress addon for Heroku. \
-2.) Connect the git repository and deploy.
+2.) Connect the git repository, add `SECRET` env variable, deploy.\
+
+Note #4: NODE_ENV must be `production` when deploying.
 
 
