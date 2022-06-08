@@ -8,7 +8,7 @@ Steps:\
 `DB_PASSWORD`="Your PostgreSQL account password"\
 `SECRET`="Some long complicated string"\
 `PORT`="Any post other than the one the client side code is running on (3000 by default)"\
-`NODE_ENV`="development"\
+`NODE_ENV`="development"
 
 Test here: https://pern-stack-server.herokuapp.com/
 
