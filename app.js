@@ -28,5 +28,5 @@ app.use((req, res, next) => {
 app.use("/user", user);
 
 app.get("*", (req, res) => {
-  res.send("Invalid path", 404);
+  res.status(404).send({ error: "Invalid path" });
 });
