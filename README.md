@@ -21,6 +21,6 @@ Steps:\
 1.) Make sure to install the postgress addon for Heroku. \
 2.) Connect the git repository, add `SECRET` env variable, deploy.
 
-Note #4: The env var `NODE_ENV` must be `production` when deploying.
+Note #4: The env var `NODE_ENV` must be `production` when deploying (default on Heroku), modify the code if setting as something different.
 
 
